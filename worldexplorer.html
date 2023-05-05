@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title>World Explorer</title>
+  </head>
+  <body>
+    <h1>World Explorer</h1>
+    <p>Enter the towns/cities you have visited below to see what percentage of that country you have explored:</p>
+    <form>
+      <label for="towns">Towns/Cities Visited:</label><br>
+      <input type="text" id="towns" name="towns"><br>
+      <input value="Explore" type="button" onclick="calculatePercentage()">
+    </form>
+    <p>Your exploration progress:</p>
+    <div id="progress">
+      <!-- This is where the percentage of the country visited will be displayed -->
+    </div>
+
+    <script src="worldexplorer.js"></script>
+  </body>
+</html>
