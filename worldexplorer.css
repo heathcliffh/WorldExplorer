@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4e9f7;
+    font-family: 'Product Sans', sans-serif;
+  }
+  
+  .container {
+    max-width: 600px;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="text"] {
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  input[type="button"] {
+    margin-top: 10px;
+    font-size: 16px;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0077c2;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #progress {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
